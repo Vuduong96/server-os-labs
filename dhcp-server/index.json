@@ -1,34 +1,33 @@
 {
   "title": "DHCP Server Setup on Ubuntu",
-  "description": "Learn how to install, configure, and test a DHCP server on Ubuntu Server using isc-dhcp-server.",
+  "description": "Learn how to install and configure a DHCP server on Ubuntu using isc-dhcp-server.",
   "details": {
     "intro": {
-      "text": "intro.md",
-      "background": "setup.sh"
+      "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Step 1: Install DHCP Server",
+        "title": "Install DHCP Server",
         "text": "step1.md",
         "verify": "verify1.sh"
       },
       {
-        "title": "Step 2: Configure Network Interface",
+        "title": "Configure Network Interface",
         "text": "step2.md",
         "verify": "verify2.sh"
       },
       {
-        "title": "Step 3: Configure DHCP Subnet",
+        "title": "Configure DHCP Subnet",
         "text": "step3.md",
         "verify": "verify3.sh"
       },
       {
-        "title": "Step 4: Start and Enable the Service",
+        "title": "Start and Enable the Service",
         "text": "step4.md",
         "verify": "verify4.sh"
       },
       {
-        "title": "Step 5: Test and Verify Leases",
+        "title": "Test and Verify Leases",
         "text": "step5.md",
         "verify": "verify5.sh"
       }
