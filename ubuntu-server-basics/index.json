@@ -1,0 +1,42 @@
+{
+  "title": "Ubuntu Server Basics",
+  "description": "Learn essential Ubuntu Server administration skills: user management, file permissions, service control, disk usage, and SSH configuration.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "User and Group Management",
+        "text": "step1.md",
+        "verify": "verify1.sh"
+      },
+      {
+        "title": "File Permissions",
+        "text": "step2.md",
+        "verify": "verify2.sh"
+      },
+      {
+        "title": "Managing Services with systemctl",
+        "text": "step3.md",
+        "verify": "verify3.sh"
+      },
+      {
+        "title": "Disk and Memory Usage",
+        "text": "step4.md",
+        "verify": "verify4.sh"
+      },
+      {
+        "title": "SSH Configuration",
+        "text": "step5.md",
+        "verify": "verify5.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
